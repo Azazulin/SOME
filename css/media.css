@@ -1,0 +1,62 @@
+@media(max-width:430px) {
+    .header_top_block {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 8px;
+    }
+
+    .header_top_block h1 {
+        font-size: 18px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .mobile_usage_head {
+        display: none;
+    }
+
+    .header_top_block img {
+        width: 98px;
+        height: 98px;
+        margin-bottom: 10px;
+    }
+
+    .quest_section {
+        flex-direction: column;
+    }
+
+    .quest_block {
+        flex: 0 1 100%;
+        margin-bottom: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .video {
+        flex: 0 1 100%;
+    }
+
+    .quest_block img {
+        width: 100%;
+        display: block;
+
+    }
+
+    .about_app h2 {
+        font-size: 24px;
+    }
+
+    .about_project p {
+        font-size: 15px;
+    }
+
+    .about_project h2 {
+        font-size: 24px;
+    }
+
+    #download_string {
+        font-size: 24px;
+    }
+}
